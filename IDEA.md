@@ -1,6 +1,6 @@
 # Qanal — The Universal Hosting Panel
 
-> *Qanal* (قنال) — Arabic/Turkish for "channel". Every service you run is a channel to the world.
+> *Qanal* (قناة) — Arabic for "channel". Every service you run is a channel to the world.
 
 ---
 
@@ -116,7 +116,7 @@ One Qanal install can serve one person or a hosting company with thousands of cl
 ## Roadmap
 
 ### Phase 0: Foundation (MVP — THIS PHASE)
-- [ ] Project scaffold (Next.js + shadcn)
+- [ ] Project scaffold (shadcn)
 - [ ] Auth (login, sessions, roles)
 - [ ] Server connection (SSH key-based)
 - [ ] Domain management + nginx vhost
