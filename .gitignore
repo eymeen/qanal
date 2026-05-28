@@ -1,1 +1,29 @@
-.todo
+# deps
+node_modules/
+bun.lock
+
+# build output
+dist/
+.vite/
+
+# env & secrets
+.env
+.env.local
+
+# database
+*.db
+*.db-journal
+drizzle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# skills
+skills-lock.json
+.agents/
+assets/
