@@ -1,6 +1,11 @@
 # Qanal
+---
+
+<img alt="OG-image" src="[https://github.com/user-attachments/assets/d0eb8baf-c77b-4b58-848c-610bb74f968c](https://raw.githubusercontent.com/eymeen/qanal/refs/heads/main/assets/imgs/branding.jpg)" />
 
 > The universal open-source hosting panel — alternative to cPanel, Plesk, aapanel, hPanel.
+
+![NOTE]: this is not
 
 **Status: MVP — work in progress**
 
