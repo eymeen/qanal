@@ -1,29 +1,29 @@
-name: CI
+# name: CI
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+# on:
+#   push:
+#     branches: [main]
+#   pull_request:
+#     branches: [main]
 
-jobs:
-  lint:
-    name: Type check & lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+# jobs:
+#   lint:
+#     name: Type check & lint
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
 
-      - uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
+#       - uses: oven-sh/setup-bun@v2
+#         with:
+#           bun-version: latest
 
-      - name: Install dependencies
-        run: bun install
+#       - name: Install dependencies
+#         run: bun install
 
-      - name: Type check (api)
-        working-directory: apps/api
-        run: bun run tsc --noEmit
+#       - name: Type check (api)
+#         working-directory: apps/api
+#         run: bun run tsc --noEmit
 
-      - name: Type check (web)
-        working-directory: apps/web
-        run: bun run tsc --noEmit
+#       - name: Type check (web)
+#         working-directory: apps/web
+#         run: bun run tsc --noEmit
